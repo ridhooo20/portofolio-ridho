@@ -1,0 +1,27 @@
+.background-about {
+    background: linear-gradient(
+        to right, 
+        #4CBEFF99 0%, 
+        #4CBFFFEB 100% 
+    );
+}
+
+.fade-down {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  /* Saat elemen terlihat di viewport */
+  .fade-down-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+  @media (min-width: 1000px) and (max-width: 1222px) {
+    .gambar{
+        margin-right: 9rem;
+    }
+}

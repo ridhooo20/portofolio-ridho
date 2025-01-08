@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --var-main: #0c7ae8;
+    --var-nav: #0084ff;
+    --var-second: #006cd7;
+    --var-bg: #FFFFFF;
+    --var-text: #000000;
+}
+
+.navbar{
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+body{
+    height: 135rem;
+    background-color: var(--var-text);
+    color: var(--var-bg) ;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+}
+
+
